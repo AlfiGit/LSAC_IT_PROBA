@@ -2,8 +2,9 @@
 
 ### Cum se ruleaza
 - Pentru testarea proiectului trebuie sa fie instalate: Node.js, npm, MongoDB. Trebuie pornit serverul Mongo pe `localhost:27017` (din MongoDBCompass). Vezi mai jos cum se poate face setupul pentru testarea pe un alt URL sau port.
-- Se initializeaza proiectul cu `npm install` pentru instalarea tuturor dependintelor. Pentru o experienta de rulare (putin) mai buna, poate fi instalat si nodemon prin comanda `npm install --dev` in locul comenzii de mai sus.
+- Se initializeaza proiectul cu `npm install` pentru instalarea tuturor dependintelor. Pentru o experienta de rulare (putin) mai buna, poate fi instalat si nodemon prin comanda `npm install --include=dev` in locul comenzii de mai sus.
 - Daca nodemon a fost instalat, proiectul e gata de rulat cu `npm start`. Altfel, rularea se va face in mod normal cu `node server.js`.
+- Serverul ruleaza pe localhost:8080 (neconfigurabil).
 
 #### Testarea pe un alt url sau port inafara de `localhost:27017` (intr-un Cluster)
 - Daca se face testarea pe un alt url sau port, pot fi setate variabilele de mediu `URL` respectiv `PORT` in `./nodemon.json`, in `"env"` pentru rularea proiectului cu `npm start`;
@@ -15,7 +16,7 @@ Serverul MongoDB pornit pe localhost:27017
 - `git clone https://github.com/AlfiGit/LSAC_IT_PROBA`
 
 Dupa care
-- `npm install --dev`
+- `npm install --include=dev`
 - `npm start`
 
 Sau
