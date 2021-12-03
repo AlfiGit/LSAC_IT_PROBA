@@ -12,10 +12,12 @@
 #### TL;DR;
 Necesare: npm, Node.js, MongoDB
 Serverul MongoDB pornit pe localhost:27017
-- `git clone ` TODO
+- `git clone https://github.com/AlfiGit/LSAC_IT_PROBA`
+
 Dupa care
 - `npm install --dev`
 - `npm start`
+
 Sau
 - `npm install`
 - `node server.js`
